@@ -1,10 +1,17 @@
+[build-system]
+required = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
-name = "pyguiappimage"
+name = "pyguiapp"
 version = "0.0.1"
-description = "A test project to see how to package a python project as an appimage"
-readme = ""
-requires-python = ">=3.8"
-keywords = []
+description = "Test app"
+readme = "README.md"
+authors = [{ name = "Martin Askestad", email="MartinAskestad+users@github.com" }]
+license = { file = "LICENSE" }
 classifiers = []
+keywords = []
 dependencies = []
+required-python = ">=3.8"
+
 
