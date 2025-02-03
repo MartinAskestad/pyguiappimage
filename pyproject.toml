@@ -1,0 +1,10 @@
+[project]
+name = "pyguiappimage"
+version = "0.0.1"
+description = "A test project to see how to package a python project as an appimage"
+readme = ""
+requires-python = ">=3.8"
+keywords = []
+classifiers = []
+dependencies = []
+
