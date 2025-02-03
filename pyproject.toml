@@ -12,6 +12,8 @@ license = { file = "LICENSE" }
 classifiers = []
 keywords = []
 dependencies = []
-required-python = ">=3.8"
+requires-python = ">=3.8"
 
+[project.scripts]
+pyguiapp = "pyguiapp.__main__:main"
 
