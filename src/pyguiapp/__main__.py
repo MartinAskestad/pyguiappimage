@@ -2,7 +2,7 @@
 
 from tkinter import Tk, DoubleVar
 from tkinter.ttk import Button, Entry, Label
-from convert import to_celsius
+from pyguiapp.convert import to_celsius
 
 class GuiApp(Tk):
 	def __init__(self):
